@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: qddq
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-krvl-tenant/byoc-app-ocdv/qddq@sha256:d73b2a2b03e14879b44df486e84acb22ffe499b36b687f684e0026b62f61e54e
         name: my-java-quarkus
         ports:
         - containerPort: 8081
